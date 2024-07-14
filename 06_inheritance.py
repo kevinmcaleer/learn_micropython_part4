@@ -1,4 +1,4 @@
-# Inheritance
+# 06 Inheritance
 
 class Mammal():
     backbone = True
