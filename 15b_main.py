@@ -2,7 +2,11 @@
 
 # main.py
 
-import my_robot
+import module
 
-r1 = my_robot.Robot("Robo")
+r1 = module.Robot("Robo")
+print(r1.greet())
+
+r1.name = "Minnie"
+
 print(r1.greet())

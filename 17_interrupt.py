@@ -11,7 +11,7 @@ led = Pin(Pin("LED"), Pin.OUT)
 # Define the timer callback function
 def toggle_led(timer):
     led.value(not led.value())
-    print(f"led value is: {led.value()}")
+#     print(f"led value is: {led.value()}")
 
 # Initialize the timer
 timer = Timer(-1)  # Use virtual timer
